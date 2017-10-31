@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="study.project.hann.backupdemo.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtEditName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/btnSaveInternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickSaveInternal"
+        android:text="Save Internal" />
+
+    <Button
+        android:id="@+id/btnLoadInternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLoadInternal"
+        android:text="Load Internal" />
+
+    <Button
+        android:id="@+id/btnSaveExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickSaveExternal"
+        android:text="Save External" />
+
+    <Button
+        android:id="@+id/btnLoadExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLoadExternal"
+        android:text="Load External" />
+
+    <Button
+        android:id="@+id/btnCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickCopyFile"
+        android:text="Copy File" />
+
+</LinearLayout>
